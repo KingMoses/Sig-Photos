@@ -1,0 +1,772 @@
+/*!
+ * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+
+/* ***************************************** 
+General 
+***************************************** */
+
+a {
+    color: #00a7e1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00a7e1;
+    text-decoration: none;
+}
+
+/* Selection Color */
+::-moz-selection {
+  text-shadow: none;
+  background: #00a7e1;
+    color: #fff;
+}
+::selection {
+  text-shadow: none;
+  background: #00a7e1;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+section {
+  padding: 60px 0;
+}
+
+section h2.section-heading {
+  font-family: 'Cardo', serif;
+  font-size: 50px;
+}
+
+section h3.section-subheading {
+  font-size: 18px;
+  font-family: 'Cardo', serif;
+  text-transform: none;
+  font-style: normal;
+  margin-bottom: 75px;
+}
+
+hr {
+    width: 80px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.content p {
+    color: #fff;
+    text-align: center;
+}
+
+.content {
+    margin-top: 180px;
+}
+
+i:hover {
+   background-color:  
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border: 6px solid #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    border: 7px solid white;
+}
+
+/* Modal */
+
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+    
+}
+
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+.portfolio-modal .close-modal .lr {
+    background-color: #007ea7;
+    width: 5px;
+    border-radius: 5px;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    background-color: #007ea7;
+    width: 5px;
+    border-radius: 5px;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ***************************************** 
+Nav-Desktop 
+***************************************** */
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-color: transparent;
+}
+
+.navbar-custom.affix {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand .fa-camera-retro {
+    margin-top: -12px;
+    color: #00a7e1;
+    font-size: 45px;
+}
+
+.company {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #00a7e1;
+}
+
+/* ***************************************** 
+Nav-Mobile 
+***************************************** */
+
+.navbar-custom .navbar-toggle {
+  background-color: #003459;
+  border-color: #003459;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+
+.navbar-custom .nav li a {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #00a7e1;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #00a7e1;
+  outline: none;
+}
+
+/* Hover */
+
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #00a7e1;
+}
+
+/* ***************************************** 
+Banner 
+***************************************** */
+
+header {
+    background-image: url('../img/carlight.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+    height: 700px;
+}
+
+header .intro-text .intro-lead-in {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+header .intro-text .intro-heading p {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 120px;
+    text-transform: none;
+    line-height: 120px;
+    margin-bottom: 25px;
+}
+
+
+/* ***************************************** 
+About 
+***************************************** */
+
+#about {
+    background-color: #007ea7;
+    height: 910px;
+}
+
+#about h2.section-heading {
+  color: #fff;
+}
+
+#about h3.section-subheading {
+  color: #fff;
+}
+
+
+/* ***************************************** 
+Team 
+***************************************** */
+
+#team {
+    background-image: url(../img/team-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 690px; 
+    color: #fff;
+}
+
+ul.social-buttons li a {
+    background-color: #003459;
+    color: #fff;
+}
+
+ul.social-buttons li a:hover {
+    background-color: #00a7e1;
+    color: #fff;
+}
+
+
+/* ***************************************** 
+Services 
+***************************************** */
+#services {
+    background-color: #fff;
+    height: 2730px;
+}
+
+#services hr {
+    background-color: #000; 
+}
+
+#services .content p {
+    color: #000;
+}
+
+#services img {
+    margin-bottom: 50px;
+}
+
+
+/* ***************************************** 
+Stats
+***************************************** */
+
+#stats {
+    background-image: url('../img/street-food.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    height: 400px;
+}
+
+#stats .info {
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+}
+
+#stats i {
+    color: #00a7e1;
+}
+
+#stats h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+/* ***************************************** 
+Our Works
+***************************************** */
+
+#works hr {
+    background-color: #000; 
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+
+/* ***************************************** 
+Contact
+***************************************** */
+
+section#contact {
+    background-image: url('../img/stars.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+#contact h3.section-subheading {
+  color: #fff;
+}
+
+#contact button {
+    background-color: #003459;
+    border-color: #00a7e1;
+}
+
+#contact button:hover {
+    background-color: #00a7e1;
+}
+
+
+/* ***************************************** 
+Media Query
+***************************************** */
+
+/* 1280px */
+
+@media (max-width: 1280px) {
+  header {
+      height: 600px;
+  }
+  
+  header .intro-text .intro-lead-in {
+      margin-top: -70px;
+  }
+  
+  header .intro-text .intro-heading p {
+      line-height: 130px;
+  }
+  
+  #services .content {
+      margin-top: 170px;
+  }
+  
+  #services .content h3 {
+      color: #00A7E1;
+  }
+}
+
+
+/* 1199px */
+
+@media (max-width: 1199px) {   
+    #about {
+        height: 800px;
+    }
+    #about p{
+        margin-top: -60px;
+    }
+    #services {
+        height: 2300px;
+    }
+    #services .content {
+        margin-top: 90px;
+    }
+    #services .content h3 {
+        color: #00A7E1;
+    }
+}
+
+
+/* 991px */
+
+@media (max-width: 991px) {
+   #team {
+       height: 730px;
+   }
+   
+   .content p {
+       margin-top: 25px;
+   }  
+   #about {
+       height: 690px;
+   }
+    #about p{
+        margin-top: -150px;
+    }
+    #services {
+        height: 1880px;
+    }
+    #services .content {
+        margin-top: 0px;
+    }
+    #services .content h3 {
+        color: #00A7E1;
+    }
+}
+
+
+/* 767px */
+
+@media (max-width: 767px) {    
+    header {
+        height: 500px;
+        background-attachment: scroll;
+    }
+    
+    header .intro-text .intro-lead-in {
+        margin-top: 40px;
+        font-size: 50px;
+    }
+    
+    header .intro-text .intro-heading p {
+        font-size: 120px;
+        line-height: 130px;
+        margin-top: -10px;
+    }
+    
+    #about {
+        height: 810px;
+    }
+    
+    #about img {
+        height: 400px;
+    }
+    
+    #about hr {
+        margin-bottom: 50px;
+    }
+    
+    #about h3.section-subheading {
+        display: none;
+    }
+    
+    #team {
+        display: none;
+    }
+    
+    #services {
+        height: 1150px;
+    }
+    
+    #services hr {
+        margin-top: -40px;
+        margin-bottom: 40px;
+    }
+    
+    #services img {
+        display: none;
+    }
+    
+    #services h3.section-subheading {
+        display: none;
+    }
+    
+    #services .heading h2 {
+        margin-bottom: 60px;
+        font-size: 50px;
+    }
+    
+    #services h3 {
+        font-size: 25px;
+        color: #00A7E1;
+    }
+    #services .content h3 {
+        color: #00A7E1;
+    }
+    
+    #stats {
+        height: 200px;
+    }
+    
+    #stats i {
+        display: none;
+    }
+    
+    #stats h4 {
+        display: none;
+    }
+    
+    #works {
+        height: 3350px;
+    }
+    
+    footer {
+        height: 150px;
+    }
+}
+
+
+/* 672px */
+
+@media (max-width: 672px) {
+    #services {
+        height: 1140px;
+    }
+}
+
+
+/* 650px */
+
+@media (max-width: 650px) {
+    #about {
+        height: 840px;
+    }   
+    #services {
+        height: 1240px;
+    }
+}
+
+
+/* 572px */
+
+@media (max-width: 572px) {   
+    #about {
+        height: 870px;
+    }
+    #services {
+        height: 1230px;
+    }  
+}
+   
+
+/* 570px */
+
+@media (max-width: 570px) {
+  header .intro-text .intro-lead-in {
+      margin-top: 60px;
+      font-size: 40px;
+  }
+  
+  header .intro-text .intro-heading p {
+      font-size: 90px;
+      line-height: 100px;
+      margin-top: -10px;
+  }
+}
+
+/* 551px */
+
+@media (max-width: 551px) {
+    #services {
+        height: 1330px;
+    }
+    
+    #about {
+        height: 860px;
+    }
+}
+
+/* 504px */
+
+@media (max-width: 504px) {
+    #about {
+        height: 880px;
+    }
+    #services {
+        height: 1330px;
+    } 
+}
+
+/* 486px */
+
+@media (max-width: 486px) {
+    #about {
+        height: 880px;
+    }
+    #services {
+        height: 1430px;
+    } 
+}
+
+
+/* 462px */
+
+@media (max-width: 462px) {
+  header {
+      height: 430px;
+  }
+  
+  header .intro-text .intro-lead-in {
+      font-size: 35px;
+  }
+  
+  header .intro-text .intro-heading p {
+      font-size: 70px;
+      line-height: 80px;
+  }
+}
+
+
+/* 457px */
+
+@media (max-width: 457px) {
+   #about {
+       height: 910px;
+   }
+    #services {
+       height: 1420px;
+   } 
+}
+
+
+/* 439px */
+
+@media (max-width: 439px) {
+  header .intro-text .intro-lead-in {
+      font-size: 30px;
+      margin-top: 80px;
+  }
+  
+  header .intro-text .intro-heading p {
+      font-size: 60px;
+      margin-top: -20px;
+  }
+  
+  .navbar-brand .fa-camera-retro {
+      margin-top: -8px;
+      color: #00a7e1;
+      font-size: 40px;
+  }
+}
+
+/* 430px */
+
+@media (max-width: 430px) {
+    #about {
+        height: 880px;
+    }
+    #about img {
+       height: 370px;
+   } 
+}
+
+/* 425px */
+
+@media (max-width: 425px) {
+    #services {
+       height: 1520px;
+   } 
+}
+
+
+/* 415px */
+
+@media (max-width: 415px) {
+    #services {
+        height: 1710px;
+    }
+}
+
+
+/* 400px */
+
+@media (max-width: 400px) {
+    header {
+        height: 400px;
+    }
+    
+    header .intro-text .intro-lead-in {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    
+    header .intro-text .intro-heading p {
+        font-size: 60px;
+        margin-top: -20px;
+    }
+    #about {
+        height: 900px;
+    }
+    #services {
+        height: 1530px;
+    }
+}
+
+/* 390px */
+
+@media (max-width: 390px) {
+   .navbar-brand .fa-camera-retro {
+        display: none;
+    }
+}
+
+
+/* 384px */
+
+@media (max-width: 384px) {
+    #about {
+       height: 930px;
+   }
+    #services {
+       height: 1640px;
+   }
+}
+
+
+/* 350px */
+
+@media (max-width: 350px) {
+   .company {
+       display: none;
+    }
+}
+
+
+/* 347px */
+
+@media (max-width: 347px) {
+    #about {
+       height: 950px;
+   }
+    #services {
+       height: 1730px;
+   }
+}
+
+/* 320px */
+
+@media (max-width: 320px) {
+    #about {
+       height: 970px;
+   }
+    #services {
+       height: 1830px;
+   }
+    .company {
+       display: none;
+    }
+}
