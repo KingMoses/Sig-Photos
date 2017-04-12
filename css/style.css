@@ -195,7 +195,7 @@ Banner
 ***************************************** */
 
 header {
-    background-image: url('../img/carlight.jpg');
+    background-image: url('../img/carlight-overlay.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -205,7 +205,7 @@ header {
     -o-background-size: cover;
     text-align: center;
     color: white;
-    height: 700px;
+    height: 800px;
 }
 
 header .intro-text .intro-lead-in {
@@ -213,7 +213,7 @@ header .intro-text .intro-lead-in {
   font-style: italic;
   font-size: 60px;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-top: -35px;
 }
 
 header .intro-text .intro-heading p {
@@ -295,7 +295,7 @@ Stats
 ***************************************** */
 
 #stats {
-    background-image: url('../img/street-food.jpeg');
+    background-image: url('../img/street-food-overlay.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -364,6 +364,7 @@ section#contact {
 /* ***************************************** 
 Media Query
 ***************************************** */
+
 
 /* 1280px */
 
@@ -538,6 +539,16 @@ Media Query
     }
 }
 
+/* 661px */
+
+@media (max-width: 661px) {
+    #about {
+        height: 840px;
+    }   
+    #services {
+        height: 1160px;
+    }
+}
 
 /* 650px */
 
@@ -558,7 +569,7 @@ Media Query
         height: 870px;
     }
     #services {
-        height: 1230px;
+        height: 1250px;
     }  
 }
    
@@ -578,11 +589,12 @@ Media Query
   }
 }
 
+
 /* 551px */
 
 @media (max-width: 551px) {
     #services {
-        height: 1330px;
+        height: 1350px;
     }
     
     #about {
@@ -594,12 +606,13 @@ Media Query
 
 @media (max-width: 504px) {
     #about {
-        height: 880px;
+        height: 900px;
     }
     #services {
-        height: 1330px;
+        height: 1350px;
     } 
 }
+
 
 /* 486px */
 
@@ -608,7 +621,7 @@ Media Query
         height: 880px;
     }
     #services {
-        height: 1430px;
+        height: 1470px;
     } 
 }
 
@@ -638,7 +651,7 @@ Media Query
        height: 910px;
    }
     #services {
-       height: 1420px;
+       height: 1450px;
    } 
 }
 
@@ -678,7 +691,7 @@ Media Query
 
 @media (max-width: 425px) {
     #services {
-       height: 1520px;
+       height: 1560px;
    } 
 }
 
@@ -686,8 +699,11 @@ Media Query
 /* 415px */
 
 @media (max-width: 415px) {
+    #about {
+        height: 920px;
+    }
     #services {
-        height: 1710px;
+        height: 1550px;
     }
 }
 
@@ -709,7 +725,10 @@ Media Query
         margin-top: -20px;
     }
     #about {
-        height: 900px;
+        height: 850px;
+    }
+    #about img {
+        height: 300px;
     }
     #services {
         height: 1530px;
@@ -725,14 +744,14 @@ Media Query
 }
 
 
-/* 384px */
+/* 385px */
 
-@media (max-width: 384px) {
+@media (max-width: 385px) {
     #about {
        height: 930px;
    }
     #services {
-       height: 1640px;
+       height: 1630px;
    }
 }
 
@@ -757,16 +776,39 @@ Media Query
    }
 }
 
-/* 320px */
+/* 330px */
 
-@media (max-width: 320px) {
+@media (max-width: 330px) {
     #about {
-       height: 970px;
+       height: 840px;
+   }
+    #about img {
+       height: 250px;
    }
     #services {
-       height: 1830px;
+       height: 1750px;
    }
     .company {
        display: none;
     }
+}
+
+@media (max-width: 326px) {
+    #about {
+       height: 870px;
+   }
+    #services {
+       height: 1750px;
+   }
+    
+}
+
+@media (max-width: 320px) {
+    #about {
+       height: 870px;
+   }
+    #services {
+       height: 1750px;
+   }
+    
 }
