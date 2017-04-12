@@ -700,7 +700,7 @@ Media Query
 
 @media (max-width: 415px) {
     #about {
-        height: 920px;
+        height: 890px;
     }
     #services {
         height: 1550px;
@@ -748,7 +748,7 @@ Media Query
 
 @media (max-width: 385px) {
     #about {
-       height: 930px;
+       height: 850px;
    }
     #services {
        height: 1630px;
@@ -769,7 +769,7 @@ Media Query
 
 @media (max-width: 347px) {
     #about {
-       height: 950px;
+       height: 870px;
    }
     #services {
        height: 1730px;
@@ -793,22 +793,15 @@ Media Query
     }
 }
 
-@media (max-width: 326px) {
-    #about {
-       height: 870px;
-   }
-    #services {
-       height: 1750px;
-   }
-    
-}
+
+/* 320px */
 
 @media (max-width: 320px) {
     #about {
        height: 870px;
    }
     #services {
-       height: 1750px;
+       height: 1820px;
    }
     
 }
