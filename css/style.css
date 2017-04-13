@@ -365,6 +365,12 @@ section#contact {
 Media Query
 ***************************************** */
 
+/* 1366px */
+@media (max-width: 1366px) {
+    header {
+    height: 900px;
+}
+}
 
 /* 1280px */
 
