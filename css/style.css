@@ -141,6 +141,9 @@ Nav-Desktop
 .company {
     font-family: 'Dancing Script', cursive;
     font-size: 35px;
+    -webkit-font-size; 30px;
+    -ms-font-size; 30px;
+    -o-font-size; 30px;
     color: white;
 }
 
@@ -528,7 +531,7 @@ Media Query
     }
     
     #works {
-        height: 3350px;
+        height: 2350px;
     }
     
     footer {
@@ -632,9 +635,9 @@ Media Query
 }
 
 
-/* 462px */
+/* 464px */
 
-@media (max-width: 462px) {
+@media (max-width: 464px) {
   header {
       height: 430px;
   }
@@ -647,6 +650,9 @@ Media Query
       font-size: 70px;
       line-height: 80px;
   }
+    #works {
+        height: 2390px;
+    }
 }
 
 
@@ -762,6 +768,16 @@ Media Query
 }
 
 
+/* 365px */
+
+@media (max-width: 365px) {
+   #works {
+        height: 2450px;
+    }
+}
+
+
+
 /* 350px */
 
 @media (max-width: 350px) {
@@ -778,7 +794,7 @@ Media Query
        height: 870px;
    }
     #services {
-       height: 1730px;
+       height: 1790px;
    }
 }
 
@@ -806,7 +822,7 @@ Media Query
     #about {
        height: 870px;
    }
-    #services {
+    #works {
        height: 1820px;
    }
     
