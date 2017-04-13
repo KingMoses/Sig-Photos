@@ -132,12 +132,6 @@ Nav-Desktop
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.navbar-brand .fa-camera-retro {
-    margin-top: -12px;
-    color: #00a7e1;
-    font-size: 45px;
-}
-
 .company {
     font-family: 'Dancing Script', cursive;
     font-size: 35px;
@@ -145,6 +139,7 @@ Nav-Desktop
     -ms-font-size; 30px;
     -o-font-size; 30px;
     color: white;
+    margin-left: 20px;
 }
 
 .navbar-custom .navbar-nav > .active > a {
